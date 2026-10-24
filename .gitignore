@@ -1,0 +1,49 @@
+# Python / environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local secrets and settings
+labels.json
+monitor.json
+*.local.json
+config.local.*
+credentials.*
+secrets.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.log
+.local/
+private/
+
+# Captures, router exports and session data
+upload/
+uploads/
+screenshots/
+captures/
+router-exports/
+*.har
+*.pcap
+*.pcapng
+cookies.txt
+session.json
+
+# Generated packages and binaries
+build/
+dist/
+release/
+*.spec
+*.exe
+*.zip
+
+# OS / editor files
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
